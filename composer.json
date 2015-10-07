@@ -1,0 +1,26 @@
+{
+	"name": "vega/database",
+	"description": "A lightweight, expressive, framework agnostic query builder for PHP.",
+	"homepage": "https://github.com/usmanhalalit/pixie",
+	"keywords": ["query builder", "sql", "database", "mysql", "postgresql", "sqlite"],
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"authors":
+	[
+		{
+			"name": "yeshiquan",
+			"email": "yeshiquan@baidu.com",
+			"role": "Developer"
+		}
+	],
+	
+	"require": {
+		"php": ">=5.3.0"
+	},
+	
+	"autoload":	{
+		"psr-4": {
+            "Vega\\Database\\": "src"           
+		}
+	}
+}
